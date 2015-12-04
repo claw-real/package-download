@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Chris Law <megs.law@gmail.com>
 
-# Chrome Layers
+# Chrome apt sources
 COPY AptSources /etc/apt/sources.list.d/
 
 RUN useradd -m google-chrome; \
