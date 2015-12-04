@@ -14,7 +14,8 @@ If the file already exists it will not re-download it.
 
 Usage is intended to be part of a cron job.  Place a script in /etc/cron.daily with the contents along the lines of
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 src_dir="/tmp"
 
